@@ -1,0 +1,24 @@
+INSERT INTO `ss_links` (`id`, `links`, `xlinksico`, `linkname`, `uid`) VALUES (NULL, 'https://huaban.com/', '#icon-huaban', '花瓣', '5'),
+(NULL, 'https://www.zcool.com.cn/', '#icon-huaban', '花瓣', '5'),
+(NULL, 'https://www.iconfont.cn/', '#icon-huaban', '花瓣', '5'),
+(NULL, 'https://www.iconfinder.com/', '#icon-huaban', '花瓣', '5'),
+(NULL, 'https://uiiiuiii.com/', '#icon-huaban', '花瓣', '5'),
+(NULL, 'https://www.google.com/', '#icon-huaban', '花瓣', '6'),
+(NULL, 'https://duckduckgo.com/', '#icon-huaban', '花瓣', '6'),
+(NULL, 'https://www.bing.com/', '#icon-huaban', '花瓣', '6'),
+(NULL, 'https:/m.baidu.com/?pu=sz%401321_480&wpo=btmfast', '#icon-huaban', '花瓣', '6'),
+(NULL, 'https://hk.yahoo.com/', '#icon-huaban', '花瓣', '6'),
+(NULL, 'https://www.naver.com/', '#icon-huaban', '花瓣', '6'),
+(NULL, 'https://mijisou.com/', '#icon-huaban', '花瓣', '6'),
+(NULL, 'https://www.dogedoge.com/', '#icon-huaban', '花瓣', '6'),
+    (NULL, 'https://seeres.com/', '#icon-huaban', '花瓣', '6')
+                                                         ,
+ (NULL, 'https://mijisou.com/', '#icon-huaban', '花瓣', '6')
+                                                         ,
+  (NULL, 'https://mijisou.com/', '#icon-huaban', '花瓣', '6')
+                                                         ,
+  (NULL, 'https://mijisou.com/', '#icon-huaban', '花瓣', '6')
+                                                         ,
+    (NULL, 'https://mijisou.com/', '#icon-huaban', '花瓣', '6')
+                                                         ,
+  (NULL, 'https://mijisou.com/', '#icon-huaban', '花瓣', '6');

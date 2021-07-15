@@ -1,0 +1,70 @@
+
+
+<div class="layui-form" lay-filter="layuiadmin-form-tags" id="layuiadmin-app-form-tags">
+  <div class="layui-form-item">
+    <label class="layui-form-label">链接地址</label>
+    <div class="layui-input-inline">
+      <script type="text/html" template>
+        <input type="text" name="links" value="{{ d.params.links || '' }}" lay-verify="required" placeholder="请输入..." autocomplete="off" class="layui-input">
+      </script>
+    </div>
+  </div>
+  <div class="layui-form" lay-filter="layuiadmin-form-tags" id="layuiadmin-app-form-tags">
+    <div class="layui-form-item">
+      <label class="layui-form-label">图标</label>
+      <div class="layui-input-inline">
+        <script type="text/html" template>
+          <input type="text" name="xlinksico" value="{{ d.params.xlinksico || '' }}" lay-verify="required" placeholder="请输入..." autocomplete="off" class="layui-input">
+        </script>
+      </div>
+    </div>
+    <div class="layui-form" lay-filter="layuiadmin-form-tags" id="layuiadmin-app-form-tags">
+      <div class="layui-form-item">
+        <label class="layui-form-label">链接名称</label>
+        <div class="layui-input-inline">
+          <script type="text/html" template>
+            <input type="text" name="linkname" value="{{ d.params.linkname || '' }}" lay-verify="required" placeholder="请输入..." autocomplete="off" class="layui-input">
+          </script>
+        </div>
+      </div>
+<!--      <div class="layui-form" lay-filter="layuiadmin-form-tags" id="layuiadmin-app-form-tags">-->
+<!--        <div class="layui-form-item">-->
+<!--          <label class="layui-form-label">分类id</label>-->
+<!--          <div class="layui-input-inline">-->
+<!--            <script type="text/html" template>-->
+<!--              <input type="text" name="uid" value="{{ d.params.uid || '' }}" lay-verify="required" placeholder="请输入..." autocomplete="off" class="layui-input">-->
+<!--            </script>-->
+<!--          </div>-->
+<!--        </div>-->
+        <div class="layui-form" lay-filter="layuiadmin-form-tags" id="layuiadmin-app-form-tags">
+          <div class="layui-form-item">
+            <label class="layui-form-label">分类id</label>
+            <div class="layui-input-inline">
+            <select name="uid">
+              <option value="">请选择标签</option>
+              <option value="10">Page</option>
+              <option value="1">视频媒体</option>
+              <option value="2">邮箱</option>
+              <option value="3">社交资讯</option>
+              <option value="4">购物</option>
+              <option value="5">设计视觉</option>
+              <option value="6">搜索引擎</option>
+              <option value="7">工具</option>
+              <option value="8">开发</option>
+              <option value="9">效率分类</option>
+              <option value="11">新增</option>
+              <option value="12">其他或新增</option>
+            </select>
+          </div>
+        </div>
+
+  <script type="text/html" template>
+    <input type="hidden" name="id" value="{{ d.params.id || '' }}">
+  </script>
+  <div class="layui-form-item">
+    <label class="layui-form-label"></label>
+    <div class="layui-input-inline">
+      <input type="button" lay-submit lay-filter="layuiadmin-app-tags-submit" value="确认" class="layui-btn">
+    </div>
+  </div>
+</div>
