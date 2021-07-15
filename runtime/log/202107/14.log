@@ -1,0 +1,466 @@
+[2021-07-14T14:05:12+08:00][sql] CONNECT:[ UseTime:0.004581s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:05:12+08:00][sql] SHOW FULL COLUMNS FROM `ss_links` [ RunTime:0.006625s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` [ RunTime:0.001787s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 10 [ RunTime:0.001103s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 1 [ RunTime:0.002927s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 2 [ RunTime:0.000489s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 3 [ RunTime:0.000342s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 4 [ RunTime:0.000361s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 5 [ RunTime:0.000362s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 6 [ RunTime:0.000326s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 7 [ RunTime:0.000350s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 8 [ RunTime:0.000329s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 9 [ RunTime:0.000322s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 11 [ RunTime:0.001875s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 12 [ RunTime:0.000499s ]
+[2021-07-14T14:05:12+08:00][sql] SHOW FULL COLUMNS FROM `music_gedan` [ RunTime:0.000943s ]
+[2021-07-14T14:05:12+08:00][sql] SELECT * FROM `music_gedan` WHERE  `moren_uid` = 1 [ RunTime:0.000596s ]
+[2021-07-14T14:05:41+08:00][sql] CONNECT:[ UseTime:0.001311s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:05:41+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001640s ]
+[2021-07-14T14:05:41+08:00][sql] SELECT * FROM `users` [ RunTime:0.000567s ]
+[2021-07-14T14:05:48+08:00][sql] CONNECT:[ UseTime:0.000846s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:05:48+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002456s ]
+[2021-07-14T14:05:48+08:00][sql] SELECT * FROM `users` [ RunTime:0.000468s ]
+[2021-07-14T14:05:48+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000745s ]
+[2021-07-14T14:05:55+08:00][sql] CONNECT:[ UseTime:0.001373s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:05:55+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000910s ]
+[2021-07-14T14:05:55+08:00][sql] SELECT * FROM `users` [ RunTime:0.000522s ]
+[2021-07-14T14:06:02+08:00][sql] CONNECT:[ UseTime:0.000819s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:06:02+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001186s ]
+[2021-07-14T14:06:02+08:00][sql] SELECT * FROM `users` [ RunTime:0.000417s ]
+[2021-07-14T14:06:09+08:00][sql] CONNECT:[ UseTime:0.002380s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:06:09+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001150s ]
+[2021-07-14T14:06:09+08:00][sql] SELECT * FROM `users` [ RunTime:0.000417s ]
+[2021-07-14T14:06:09+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.002284s ]
+[2021-07-14T14:06:14+08:00][sql] CONNECT:[ UseTime:0.000747s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:06:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002138s ]
+[2021-07-14T14:06:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000498s ]
+[2021-07-14T14:06:19+08:00][sql] CONNECT:[ UseTime:0.000538s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:06:19+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000819s ]
+[2021-07-14T14:06:19+08:00][sql] SELECT * FROM `users` [ RunTime:0.000344s ]
+[2021-07-14T14:06:30+08:00][sql] CONNECT:[ UseTime:0.000646s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:06:30+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000807s ]
+[2021-07-14T14:06:30+08:00][sql] SELECT * FROM `users` [ RunTime:0.000590s ]
+[2021-07-14T14:06:30+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.001143s ]
+[2021-07-14T14:06:48+08:00][sql] CONNECT:[ UseTime:0.000744s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:06:48+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000934s ]
+[2021-07-14T14:06:48+08:00][sql] SELECT * FROM `users` [ RunTime:0.000550s ]
+[2021-07-14T14:06:48+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000607s ]
+[2021-07-14T14:06:53+08:00][sql] CONNECT:[ UseTime:0.001936s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:06:53+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000978s ]
+[2021-07-14T14:06:53+08:00][sql] SELECT * FROM `users` [ RunTime:0.000337s ]
+[2021-07-14T14:06:59+08:00][sql] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:06:59+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001446s ]
+[2021-07-14T14:06:59+08:00][sql] SELECT * FROM `users` [ RunTime:0.001012s ]
+[2021-07-14T14:07:14+08:00][sql] CONNECT:[ UseTime:0.000796s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:07:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000844s ]
+[2021-07-14T14:07:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000510s ]
+[2021-07-14T14:07:18+08:00][sql] CONNECT:[ UseTime:0.000856s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:07:18+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000718s ]
+[2021-07-14T14:07:18+08:00][sql] SELECT * FROM `users` [ RunTime:0.002970s ]
+[2021-07-14T14:07:27+08:00][sql] CONNECT:[ UseTime:0.000810s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:07:27+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001076s ]
+[2021-07-14T14:07:27+08:00][sql] SELECT * FROM `users` [ RunTime:0.000365s ]
+[2021-07-14T14:07:29+08:00][sql] CONNECT:[ UseTime:0.000785s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:07:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000812s ]
+[2021-07-14T14:07:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000547s ]
+[2021-07-14T14:07:29+08:00][sql] CONNECT:[ UseTime:0.001403s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:07:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000731s ]
+[2021-07-14T14:07:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000364s ]
+[2021-07-14T14:07:55+08:00][sql] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:07:55+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000865s ]
+[2021-07-14T14:07:55+08:00][sql] SELECT * FROM `users` [ RunTime:0.000414s ]
+[2021-07-14T14:07:55+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000678s ]
+[2021-07-14T14:08:01+08:00][sql] CONNECT:[ UseTime:0.000765s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:08:01+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000771s ]
+[2021-07-14T14:08:01+08:00][sql] SELECT * FROM `users` [ RunTime:0.000465s ]
+[2021-07-14T14:08:26+08:00][sql] CONNECT:[ UseTime:0.000695s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:08:26+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000688s ]
+[2021-07-14T14:08:26+08:00][sql] SELECT * FROM `users` [ RunTime:0.000464s ]
+[2021-07-14T14:08:26+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000527s ]
+[2021-07-14T14:08:31+08:00][sql] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:08:31+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000700s ]
+[2021-07-14T14:08:31+08:00][sql] SELECT * FROM `users` [ RunTime:0.000471s ]
+[2021-07-14T14:08:46+08:00][sql] CONNECT:[ UseTime:0.000835s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:08:46+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.003304s ]
+[2021-07-14T14:08:46+08:00][sql] SELECT * FROM `users` [ RunTime:0.000599s ]
+[2021-07-14T14:08:46+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000646s ]
+[2021-07-14T14:09:00+08:00][sql] CONNECT:[ UseTime:0.000662s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T14:09:00+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000784s ]
+[2021-07-14T14:09:00+08:00][sql] SELECT * FROM `users` [ RunTime:0.000463s ]
+[2021-07-14T14:09:00+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.001476s ]
+[2021-07-14T15:34:54+08:00][sql] CONNECT:[ UseTime:0.003066s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:34:54+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000874s ]
+[2021-07-14T15:34:54+08:00][sql] SELECT * FROM `users` [ RunTime:0.000396s ]
+[2021-07-14T15:35:32+08:00][sql] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:35:32+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000809s ]
+[2021-07-14T15:35:32+08:00][sql] SELECT * FROM `users` [ RunTime:0.000388s ]
+[2021-07-14T15:35:49+08:00][sql] CONNECT:[ UseTime:0.000842s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:35:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000631s ]
+[2021-07-14T15:35:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.000477s ]
+[2021-07-14T15:36:55+08:00][sql] CONNECT:[ UseTime:0.000962s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:36:55+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000907s ]
+[2021-07-14T15:36:55+08:00][sql] SELECT * FROM `users` [ RunTime:0.000428s ]
+[2021-07-14T15:37:05+08:00][sql] CONNECT:[ UseTime:0.001102s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:37:05+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001194s ]
+[2021-07-14T15:37:05+08:00][sql] SELECT * FROM `users` [ RunTime:0.000617s ]
+[2021-07-14T15:37:33+08:00][sql] CONNECT:[ UseTime:0.001054s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:37:33+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001492s ]
+[2021-07-14T15:37:33+08:00][sql] SELECT * FROM `users` [ RunTime:0.000929s ]
+[2021-07-14T15:37:39+08:00][sql] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:37:39+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000832s ]
+[2021-07-14T15:37:39+08:00][sql] SELECT * FROM `users` [ RunTime:0.000491s ]
+[2021-07-14T15:38:23+08:00][sql] CONNECT:[ UseTime:0.002827s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:38:23+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001994s ]
+[2021-07-14T15:38:23+08:00][sql] SELECT * FROM `users` [ RunTime:0.000936s ]
+[2021-07-14T15:38:35+08:00][sql] CONNECT:[ UseTime:0.000829s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:38:35+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001097s ]
+[2021-07-14T15:38:35+08:00][sql] SELECT * FROM `users` [ RunTime:0.000572s ]
+[2021-07-14T15:38:42+08:00][sql] CONNECT:[ UseTime:0.000708s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:38:42+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000858s ]
+[2021-07-14T15:38:42+08:00][sql] SELECT * FROM `users` [ RunTime:0.000495s ]
+[2021-07-14T15:39:02+08:00][sql] CONNECT:[ UseTime:0.000695s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:39:02+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001290s ]
+[2021-07-14T15:39:02+08:00][sql] SELECT * FROM `users` [ RunTime:0.000433s ]
+[2021-07-14T15:39:59+08:00][sql] CONNECT:[ UseTime:0.001294s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:39:59+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001372s ]
+[2021-07-14T15:39:59+08:00][sql] SELECT * FROM `users` [ RunTime:0.000636s ]
+[2021-07-14T15:40:45+08:00][sql] CONNECT:[ UseTime:0.000753s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:40:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001025s ]
+[2021-07-14T15:40:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.002525s ]
+[2021-07-14T15:40:45+08:00][error] [8]未定义数组索引: username[/www/wwwroot/tp6.com/vendor/topthink/think-helper/src/Collection.php:589]
+[2021-07-14T15:40:59+08:00][sql] CONNECT:[ UseTime:0.000769s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:40:59+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001353s ]
+[2021-07-14T15:40:59+08:00][sql] SELECT * FROM `users` [ RunTime:0.000589s ]
+[2021-07-14T15:40:59+08:00][error] [8]未定义数组索引: username[/www/wwwroot/tp6.com/vendor/topthink/think-helper/src/Collection.php:589]
+[2021-07-14T15:41:00+08:00][sql] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:41:00+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000741s ]
+[2021-07-14T15:41:00+08:00][sql] SELECT * FROM `users` [ RunTime:0.000445s ]
+[2021-07-14T15:41:00+08:00][error] [8]未定义数组索引: username[/www/wwwroot/tp6.com/vendor/topthink/think-helper/src/Collection.php:589]
+[2021-07-14T15:41:11+08:00][sql] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:41:11+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001217s ]
+[2021-07-14T15:41:11+08:00][sql] SELECT * FROM `users` [ RunTime:0.000323s ]
+[2021-07-14T15:42:25+08:00][sql] CONNECT:[ UseTime:0.000702s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:42:25+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000723s ]
+[2021-07-14T15:42:25+08:00][sql] SELECT * FROM `users` [ RunTime:0.000556s ]
+[2021-07-14T15:42:26+08:00][sql] CONNECT:[ UseTime:0.003730s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:42:26+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000889s ]
+[2021-07-14T15:42:26+08:00][sql] SELECT * FROM `users` [ RunTime:0.000452s ]
+[2021-07-14T15:43:06+08:00][sql] CONNECT:[ UseTime:0.001443s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:43:06+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000794s ]
+[2021-07-14T15:43:06+08:00][sql] SELECT * FROM `users` [ RunTime:0.000398s ]
+[2021-07-14T15:43:06+08:00][error] [8]Use of undefined constant username - assumed 'username'[/www/wwwroot/tp6.com/app/controller/Home.php:24]
+[2021-07-14T15:43:13+08:00][sql] CONNECT:[ UseTime:0.001538s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:43:13+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001549s ]
+[2021-07-14T15:43:13+08:00][sql] SELECT * FROM `users` [ RunTime:0.000465s ]
+[2021-07-14T15:43:28+08:00][sql] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:43:28+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001407s ]
+[2021-07-14T15:43:28+08:00][sql] SELECT * FROM `users` [ RunTime:0.003747s ]
+[2021-07-14T15:43:40+08:00][sql] CONNECT:[ UseTime:0.000778s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:43:40+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001313s ]
+[2021-07-14T15:43:40+08:00][sql] SELECT * FROM `users` [ RunTime:0.000522s ]
+[2021-07-14T15:43:40+08:00][error] [0]variable type error： array[/www/wwwroot/tp6.com/vendor/topthink/framework/src/think/Response.php:392]
+[2021-07-14T15:43:49+08:00][sql] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:43:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000801s ]
+[2021-07-14T15:43:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.000443s ]
+[2021-07-14T15:45:59+08:00][sql] CONNECT:[ UseTime:0.000728s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:45:59+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001511s ]
+[2021-07-14T15:45:59+08:00][sql] SELECT * FROM `users` [ RunTime:0.000518s ]
+[2021-07-14T15:46:33+08:00][sql] CONNECT:[ UseTime:0.002245s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:46:33+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001234s ]
+[2021-07-14T15:46:33+08:00][sql] SELECT * FROM `users` [ RunTime:0.000555s ]
+[2021-07-14T15:46:41+08:00][sql] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:46:41+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000713s ]
+[2021-07-14T15:46:41+08:00][sql] SELECT * FROM `users` [ RunTime:0.000449s ]
+[2021-07-14T15:47:08+08:00][sql] CONNECT:[ UseTime:0.003243s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:47:08+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000858s ]
+[2021-07-14T15:47:08+08:00][sql] SELECT * FROM `users` [ RunTime:0.000435s ]
+[2021-07-14T15:50:44+08:00][sql] CONNECT:[ UseTime:0.000671s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:50:44+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001501s ]
+[2021-07-14T15:50:44+08:00][sql] SELECT * FROM `users` [ RunTime:0.000504s ]
+[2021-07-14T15:51:14+08:00][sql] CONNECT:[ UseTime:0.002062s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:51:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001467s ]
+[2021-07-14T15:51:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000436s ]
+[2021-07-14T15:52:32+08:00][sql] CONNECT:[ UseTime:0.003662s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:52:32+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000989s ]
+[2021-07-14T15:52:32+08:00][sql] SELECT * FROM `users` [ RunTime:0.000433s ]
+[2021-07-14T15:52:49+08:00][sql] CONNECT:[ UseTime:0.001163s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:52:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001216s ]
+[2021-07-14T15:52:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.000330s ]
+[2021-07-14T15:52:59+08:00][sql] CONNECT:[ UseTime:0.000528s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:52:59+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002455s ]
+[2021-07-14T15:52:59+08:00][sql] SELECT * FROM `users` [ RunTime:0.001918s ]
+[2021-07-14T15:53:13+08:00][sql] CONNECT:[ UseTime:0.000837s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:53:13+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001358s ]
+[2021-07-14T15:53:13+08:00][sql] SELECT * FROM `users` [ RunTime:0.000389s ]
+[2021-07-14T15:54:37+08:00][sql] CONNECT:[ UseTime:0.000709s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:54:37+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000888s ]
+[2021-07-14T15:54:37+08:00][sql] SELECT * FROM `users` [ RunTime:0.000513s ]
+[2021-07-14T15:54:54+08:00][sql] CONNECT:[ UseTime:0.000833s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:54:54+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001239s ]
+[2021-07-14T15:54:54+08:00][sql] SELECT * FROM `users` [ RunTime:0.000744s ]
+[2021-07-14T15:55:25+08:00][sql] CONNECT:[ UseTime:0.000789s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:55:25+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000936s ]
+[2021-07-14T15:55:25+08:00][sql] SELECT * FROM `users` [ RunTime:0.000556s ]
+[2021-07-14T15:55:39+08:00][sql] CONNECT:[ UseTime:0.000751s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:55:39+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002733s ]
+[2021-07-14T15:55:39+08:00][sql] SELECT * FROM `users` [ RunTime:0.003275s ]
+[2021-07-14T15:55:46+08:00][sql] CONNECT:[ UseTime:0.000793s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:55:46+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.003119s ]
+[2021-07-14T15:55:46+08:00][sql] SELECT * FROM `users` [ RunTime:0.000826s ]
+[2021-07-14T15:56:12+08:00][sql] CONNECT:[ UseTime:0.000612s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:56:12+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001403s ]
+[2021-07-14T15:56:12+08:00][sql] SELECT * FROM `users` [ RunTime:0.000417s ]
+[2021-07-14T15:56:21+08:00][sql] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:56:21+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001444s ]
+[2021-07-14T15:56:21+08:00][sql] SELECT * FROM `users` [ RunTime:0.000492s ]
+[2021-07-14T15:56:26+08:00][sql] CONNECT:[ UseTime:0.002435s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T15:56:26+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000680s ]
+[2021-07-14T15:56:26+08:00][sql] SELECT * FROM `users` [ RunTime:0.000782s ]
+[2021-07-14T16:03:02+08:00][sql] CONNECT:[ UseTime:0.000864s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:03:02+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002788s ]
+[2021-07-14T16:03:02+08:00][sql] SELECT * FROM `users` [ RunTime:0.000759s ]
+[2021-07-14T16:03:08+08:00][sql] CONNECT:[ UseTime:0.000722s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:03:08+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000735s ]
+[2021-07-14T16:03:08+08:00][sql] SELECT * FROM `users` [ RunTime:0.000475s ]
+[2021-07-14T16:03:29+08:00][sql] CONNECT:[ UseTime:0.000707s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:03:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001819s ]
+[2021-07-14T16:03:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000891s ]
+[2021-07-14T16:03:30+08:00][sql] CONNECT:[ UseTime:0.001467s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:03:30+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001266s ]
+[2021-07-14T16:03:30+08:00][sql] SELECT * FROM `users` [ RunTime:0.000828s ]
+[2021-07-14T16:03:30+08:00][sql] CONNECT:[ UseTime:0.002963s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:03:30+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000857s ]
+[2021-07-14T16:03:30+08:00][sql] SELECT * FROM `users` [ RunTime:0.000420s ]
+[2021-07-14T16:03:30+08:00][sql] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:03:30+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001483s ]
+[2021-07-14T16:03:30+08:00][sql] SELECT * FROM `users` [ RunTime:0.000529s ]
+[2021-07-14T16:04:15+08:00][sql] CONNECT:[ UseTime:0.001046s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:04:15+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001535s ]
+[2021-07-14T16:04:15+08:00][sql] SELECT * FROM `users` [ RunTime:0.000542s ]
+[2021-07-14T16:04:30+08:00][sql] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:04:30+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000766s ]
+[2021-07-14T16:04:30+08:00][sql] SELECT * FROM `users` [ RunTime:0.000501s ]
+[2021-07-14T16:04:51+08:00][sql] CONNECT:[ UseTime:0.000832s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:04:51+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002420s ]
+[2021-07-14T16:04:51+08:00][sql] SELECT * FROM `users` [ RunTime:0.000910s ]
+[2021-07-14T16:05:03+08:00][sql] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:05:03+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001219s ]
+[2021-07-14T16:05:03+08:00][sql] SELECT * FROM `users` [ RunTime:0.000646s ]
+[2021-07-14T16:05:24+08:00][sql] CONNECT:[ UseTime:0.002737s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:05:24+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001420s ]
+[2021-07-14T16:05:24+08:00][sql] SELECT * FROM `users` [ RunTime:0.000826s ]
+[2021-07-14T16:06:12+08:00][sql] CONNECT:[ UseTime:0.006238s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:06:12+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.029794s ]
+[2021-07-14T16:06:12+08:00][sql] SELECT * FROM `users` [ RunTime:0.000577s ]
+[2021-07-14T16:06:14+08:00][sql] CONNECT:[ UseTime:0.000834s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:06:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000812s ]
+[2021-07-14T16:06:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.001120s ]
+[2021-07-14T16:06:25+08:00][sql] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:06:25+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000802s ]
+[2021-07-14T16:06:25+08:00][sql] SELECT * FROM `users` [ RunTime:0.000336s ]
+[2021-07-14T16:06:39+08:00][sql] CONNECT:[ UseTime:0.000940s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:06:39+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000738s ]
+[2021-07-14T16:06:39+08:00][sql] SELECT * FROM `users` [ RunTime:0.000372s ]
+[2021-07-14T16:06:41+08:00][sql] CONNECT:[ UseTime:0.000543s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:06:41+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001327s ]
+[2021-07-14T16:06:41+08:00][sql] SELECT * FROM `users` [ RunTime:0.000402s ]
+[2021-07-14T16:06:46+08:00][sql] CONNECT:[ UseTime:0.001584s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:06:46+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001188s ]
+[2021-07-14T16:06:46+08:00][sql] SELECT * FROM `users` [ RunTime:0.000405s ]
+[2021-07-14T16:06:47+08:00][sql] CONNECT:[ UseTime:0.001475s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:06:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001410s ]
+[2021-07-14T16:06:47+08:00][sql] SELECT * FROM `users` [ RunTime:0.000413s ]
+[2021-07-14T16:06:47+08:00][sql] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:06:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001212s ]
+[2021-07-14T16:06:47+08:00][sql] SELECT * FROM `users` [ RunTime:0.000598s ]
+[2021-07-14T16:07:27+08:00][sql] CONNECT:[ UseTime:0.000715s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:07:27+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001647s ]
+[2021-07-14T16:07:27+08:00][sql] SELECT * FROM `users` [ RunTime:0.000509s ]
+[2021-07-14T16:07:28+08:00][sql] CONNECT:[ UseTime:0.000729s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:07:28+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001203s ]
+[2021-07-14T16:07:28+08:00][sql] SELECT * FROM `users` [ RunTime:0.000522s ]
+[2021-07-14T16:08:19+08:00][sql] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:08:19+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001732s ]
+[2021-07-14T16:08:19+08:00][sql] SELECT * FROM `users` [ RunTime:0.000394s ]
+[2021-07-14T16:09:21+08:00][sql] CONNECT:[ UseTime:0.000790s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:09:21+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001080s ]
+[2021-07-14T16:09:21+08:00][sql] SELECT * FROM `users` [ RunTime:0.000537s ]
+[2021-07-14T16:10:09+08:00][sql] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:10:09+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001765s ]
+[2021-07-14T16:10:09+08:00][sql] SELECT * FROM `users` [ RunTime:0.000760s ]
+[2021-07-14T16:12:08+08:00][sql] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:12:08+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001686s ]
+[2021-07-14T16:12:08+08:00][sql] SELECT * FROM `users` [ RunTime:0.000559s ]
+[2021-07-14T16:14:10+08:00][sql] CONNECT:[ UseTime:0.000844s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:14:10+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000738s ]
+[2021-07-14T16:14:10+08:00][sql] SELECT * FROM `users` [ RunTime:0.000466s ]
+[2021-07-14T16:16:53+08:00][sql] CONNECT:[ UseTime:0.000616s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:16:53+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000919s ]
+[2021-07-14T16:16:53+08:00][sql] SELECT * FROM `users` [ RunTime:0.000383s ]
+[2021-07-14T16:18:12+08:00][sql] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:18:12+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000753s ]
+[2021-07-14T16:18:12+08:00][sql] SELECT * FROM `users` [ RunTime:0.000395s ]
+[2021-07-14T16:23:16+08:00][sql] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:23:16+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002123s ]
+[2021-07-14T16:23:16+08:00][sql] SELECT * FROM `users` [ RunTime:0.002051s ]
+[2021-07-14T16:31:23+08:00][sql] CONNECT:[ UseTime:0.000684s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:31:23+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000759s ]
+[2021-07-14T16:31:23+08:00][sql] SELECT * FROM `users` [ RunTime:0.000896s ]
+[2021-07-14T16:32:16+08:00][sql] CONNECT:[ UseTime:0.000783s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:32:16+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000799s ]
+[2021-07-14T16:32:16+08:00][sql] SELECT * FROM `users` [ RunTime:0.001308s ]
+[2021-07-14T16:41:06+08:00][sql] CONNECT:[ UseTime:0.000708s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:41:06+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.003685s ]
+[2021-07-14T16:41:06+08:00][sql] SELECT * FROM `users` [ RunTime:0.001558s ]
+[2021-07-14T16:55:04+08:00][sql] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:55:04+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000726s ]
+[2021-07-14T16:55:04+08:00][sql] SELECT * FROM `users` [ RunTime:0.000289s ]
+[2021-07-14T16:55:33+08:00][sql] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:55:33+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002485s ]
+[2021-07-14T16:55:33+08:00][sql] SELECT * FROM `users` [ RunTime:0.000602s ]
+[2021-07-14T16:56:27+08:00][sql] CONNECT:[ UseTime:0.000875s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T16:56:27+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001411s ]
+[2021-07-14T16:56:27+08:00][sql] SELECT * FROM `users` [ RunTime:0.000616s ]
+[2021-07-14T17:09:29+08:00][sql] CONNECT:[ UseTime:0.000766s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:09:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002976s ]
+[2021-07-14T17:09:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000418s ]
+[2021-07-14T17:09:40+08:00][sql] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:09:40+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000658s ]
+[2021-07-14T17:09:40+08:00][error] [10500]数据表字段不存在:[role][/www/wwwroot/tp6.com/vendor/topthink/think-orm/src/db/Builder.php:164]
+[2021-07-14T17:10:52+08:00][sql] CONNECT:[ UseTime:0.000768s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:10:52+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001596s ]
+[2021-07-14T17:10:52+08:00][error] [10500]数据表字段不存在:[role][/www/wwwroot/tp6.com/vendor/topthink/think-orm/src/db/Builder.php:164]
+[2021-07-14T17:16:22+08:00][sql] CONNECT:[ UseTime:0.001875s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:16:22+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001230s ]
+[2021-07-14T17:16:22+08:00][error] [10500]数据表字段不存在:[remarks][/www/wwwroot/tp6.com/vendor/topthink/think-orm/src/db/Builder.php:164]
+[2021-07-14T17:17:24+08:00][sql] CONNECT:[ UseTime:0.000716s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:17:24+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001976s ]
+[2021-07-14T17:17:24+08:00][sql] SELECT * FROM `users` [ RunTime:0.001323s ]
+[2021-07-14T17:17:38+08:00][sql] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:17:38+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000883s ]
+[2021-07-14T17:17:38+08:00][error] [10500]数据表字段不存在:[remarks][/www/wwwroot/tp6.com/vendor/topthink/think-orm/src/db/Builder.php:164]
+[2021-07-14T17:18:51+08:00][sql] CONNECT:[ UseTime:0.000933s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:18:51+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000990s ]
+[2021-07-14T17:18:51+08:00][sql] SELECT * FROM `users` [ RunTime:0.000416s ]
+[2021-07-14T17:19:02+08:00][sql] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:19:02+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001154s ]
+[2021-07-14T17:19:02+08:00][error] [10501]SQLSTATE[HY000]: General error: 1364 Field 'password' doesn't have a default value[/www/wwwroot/tp6.com/vendor/topthink/think-orm/src/db/PDOConnection.php:795]
+[2021-07-14T17:21:45+08:00][sql] CONNECT:[ UseTime:0.001996s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:21:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001647s ]
+[2021-07-14T17:21:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.000778s ]
+[2021-07-14T17:21:57+08:00][sql] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:21:57+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002236s ]
+[2021-07-14T17:21:57+08:00][sql] UPDATE `users`  SET `username` = ' admin ' , `nickname` = '油酥' , `sex` = '女' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = '542@fdsf.com' , `remarks` = 'ewfe'  WHERE  `id` = 1 [ RunTime:0.004982s ]
+[2021-07-14T17:23:04+08:00][sql] CONNECT:[ UseTime:0.000875s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:23:04+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002093s ]
+[2021-07-14T17:23:04+08:00][sql] SELECT * FROM `users` [ RunTime:0.000634s ]
+[2021-07-14T17:25:29+08:00][sql] CONNECT:[ UseTime:0.000715s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:25:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000887s ]
+[2021-07-14T17:25:29+08:00][sql] UPDATE `users`  SET `username` = '  admin  ' , `nickname` = '油酥' , `sex` = '女' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = '534@fgdg.com' , `remarks` = 'werew'  WHERE  `id` = 1 [ RunTime:0.004310s ]
+[2021-07-14T17:26:23+08:00][sql] CONNECT:[ UseTime:0.000656s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:26:23+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000787s ]
+[2021-07-14T17:26:23+08:00][sql] SELECT * FROM `users` [ RunTime:0.000484s ]
+[2021-07-14T17:26:35+08:00][sql] CONNECT:[ UseTime:0.000971s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:26:35+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001320s ]
+[2021-07-14T17:26:35+08:00][sql] UPDATE `users`  SET `username` = '   admin   ' , `nickname` = '油酥' , `sex` = '女' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = 'sdfdsf@fdsf.com' , `remarks` = 'dsfsd'  WHERE  `id` = 1 [ RunTime:0.005355s ]
+[2021-07-14T17:29:28+08:00][sql] CONNECT:[ UseTime:0.002696s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:29:28+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000625s ]
+[2021-07-14T17:29:28+08:00][sql] SELECT * FROM `users` [ RunTime:0.000396s ]
+[2021-07-14T17:36:40+08:00][sql] CONNECT:[ UseTime:0.001135s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:36:40+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001940s ]
+[2021-07-14T17:36:40+08:00][sql] UPDATE `users`  SET `username` = 'aaa' , `nickname` = '油酥' , `sex` = '女' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = 'sdfdsf@fdsf.com' , `remarks` = 'dsfsd'  WHERE  `id` = 1 [ RunTime:0.002487s ]
+[2021-07-14T17:42:44+08:00][sql] CONNECT:[ UseTime:0.001168s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:42:44+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001259s ]
+[2021-07-14T17:42:44+08:00][sql] SELECT * FROM `users` [ RunTime:0.000550s ]
+[2021-07-14T17:43:31+08:00][sql] CONNECT:[ UseTime:0.001647s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:43:31+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001416s ]
+[2021-07-14T17:43:31+08:00][sql] SELECT * FROM `users` [ RunTime:0.000532s ]
+[2021-07-14T17:43:37+08:00][sql] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:43:37+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000645s ]
+[2021-07-14T17:43:37+08:00][sql] SELECT * FROM `users` [ RunTime:0.000350s ]
+[2021-07-14T17:44:01+08:00][sql] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:44:01+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000637s ]
+[2021-07-14T17:44:01+08:00][sql] SELECT * FROM `users` [ RunTime:0.000994s ]
+[2021-07-14T17:45:38+08:00][sql] CONNECT:[ UseTime:0.000755s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:45:38+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000719s ]
+[2021-07-14T17:45:38+08:00][sql] SELECT * FROM `users` [ RunTime:0.000435s ]
+[2021-07-14T17:46:57+08:00][sql] CONNECT:[ UseTime:0.000562s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:46:57+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000713s ]
+[2021-07-14T17:46:57+08:00][sql] SELECT * FROM `users` [ RunTime:0.000324s ]
+[2021-07-14T17:47:35+08:00][sql] CONNECT:[ UseTime:0.000740s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:47:35+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000947s ]
+[2021-07-14T17:47:35+08:00][sql] SELECT * FROM `users` [ RunTime:0.000483s ]
+[2021-07-14T17:48:43+08:00][sql] CONNECT:[ UseTime:0.000805s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:48:43+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000920s ]
+[2021-07-14T17:48:43+08:00][sql] UPDATE `users`  SET `username` = 'aaa' , `nickname` = '油酥' , `sex` = '女' , `avatar` = 'http://cdn.layui.com/avatar/168.jpg' , `email` = 'jw468657802@163.com' , `remarks` = '43654银行股份回复单个电饭锅电饭锅'  WHERE  `id` = 1 [ RunTime:0.002882s ]
+[2021-07-14T17:49:53+08:00][sql] CONNECT:[ UseTime:0.000581s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:49:53+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001214s ]
+[2021-07-14T17:49:53+08:00][sql] SELECT * FROM `users` [ RunTime:0.001113s ]
+[2021-07-14T17:50:13+08:00][sql] CONNECT:[ UseTime:0.003045s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:50:13+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000700s ]
+[2021-07-14T17:50:13+08:00][sql] SELECT * FROM `users` [ RunTime:0.000427s ]
+[2021-07-14T17:50:13+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.003012s ]
+[2021-07-14T17:50:27+08:00][sql] CONNECT:[ UseTime:0.000609s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:50:27+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000727s ]
+[2021-07-14T17:50:27+08:00][sql] SELECT * FROM `users` [ RunTime:0.000465s ]
+[2021-07-14T17:50:27+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'aaa' [ RunTime:0.000663s ]
+[2021-07-14T17:50:34+08:00][sql] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:50:34+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000832s ]
+[2021-07-14T17:50:34+08:00][sql] SELECT * FROM `users` [ RunTime:0.000520s ]
+[2021-07-14T17:52:07+08:00][sql] CONNECT:[ UseTime:0.000616s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:52:07+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000580s ]
+[2021-07-14T17:52:07+08:00][sql] SELECT * FROM `users` [ RunTime:0.000414s ]
+[2021-07-14T17:53:12+08:00][sql] CONNECT:[ UseTime:0.000531s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:53:12+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001551s ]
+[2021-07-14T17:53:12+08:00][sql] SELECT * FROM `users` [ RunTime:0.000844s ]
+[2021-07-14T17:53:21+08:00][sql] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:53:21+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000834s ]
+[2021-07-14T17:53:21+08:00][sql] SELECT * FROM `users` [ RunTime:0.000618s ]
+[2021-07-14T17:53:21+08:00][error] [8]未定义数组索引: username[/www/wwwroot/tp6.com/vendor/topthink/think-helper/src/Collection.php:589]
+[2021-07-14T17:53:58+08:00][sql] CONNECT:[ UseTime:0.001523s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:53:58+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000823s ]
+[2021-07-14T17:53:58+08:00][sql] SELECT * FROM `users` [ RunTime:0.000433s ]
+[2021-07-14T17:53:58+08:00][error] [8]未定义数组索引: username[/www/wwwroot/tp6.com/vendor/topthink/think-helper/src/Collection.php:589]
+[2021-07-14T17:54:35+08:00][sql] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:54:35+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000701s ]
+[2021-07-14T17:54:35+08:00][sql] SELECT * FROM `users` [ RunTime:0.000525s ]
+[2021-07-14T17:55:05+08:00][sql] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:55:05+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000774s ]
+[2021-07-14T17:55:05+08:00][sql] SELECT * FROM `users` [ RunTime:0.000487s ]
+[2021-07-14T17:55:14+08:00][sql] CONNECT:[ UseTime:0.000930s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:55:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000725s ]
+[2021-07-14T17:55:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000905s ]
+[2021-07-14T17:55:42+08:00][sql] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:55:42+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000651s ]
+[2021-07-14T17:55:42+08:00][sql] SELECT * FROM `users` [ RunTime:0.000936s ]
+[2021-07-14T17:56:29+08:00][sql] CONNECT:[ UseTime:0.000739s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:56:29+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000930s ]
+[2021-07-14T17:56:29+08:00][sql] SELECT * FROM `users` [ RunTime:0.000591s ]
+[2021-07-14T17:56:34+08:00][sql] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:56:34+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000732s ]
+[2021-07-14T17:56:34+08:00][sql] SELECT * FROM `users` [ RunTime:0.000460s ]
+[2021-07-14T17:57:14+08:00][sql] CONNECT:[ UseTime:0.000771s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:57:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001004s ]
+[2021-07-14T17:57:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000563s ]
+[2021-07-14T17:58:09+08:00][sql] CONNECT:[ UseTime:0.000776s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:58:09+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000658s ]
+[2021-07-14T17:58:09+08:00][sql] SELECT * FROM `users` [ RunTime:0.002349s ]
+[2021-07-14T17:59:06+08:00][sql] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:59:06+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001009s ]
+[2021-07-14T17:59:06+08:00][sql] SELECT * FROM `users` [ RunTime:0.000757s ]
+[2021-07-14T17:59:14+08:00][sql] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:59:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000758s ]
+[2021-07-14T17:59:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.000468s ]
+[2021-07-14T17:59:25+08:00][sql] CONNECT:[ UseTime:0.000773s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T17:59:25+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002575s ]
+[2021-07-14T17:59:25+08:00][sql] SELECT * FROM `users` [ RunTime:0.000381s ]
+[2021-07-14T18:01:11+08:00][sql] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T18:01:11+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000667s ]
+[2021-07-14T18:01:11+08:00][sql] SELECT * FROM `users` [ RunTime:0.000417s ]
+[2021-07-14T18:01:14+08:00][sql] CONNECT:[ UseTime:0.000684s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T18:01:14+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002083s ]
+[2021-07-14T18:01:14+08:00][sql] SELECT * FROM `users` [ RunTime:0.001095s ]
+[2021-07-14T18:01:31+08:00][sql] CONNECT:[ UseTime:0.000720s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-14T18:01:31+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000789s ]
+[2021-07-14T18:01:31+08:00][sql] SELECT * FROM `users` [ RunTime:0.000608s ]

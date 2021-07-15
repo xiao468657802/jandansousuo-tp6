@@ -1,0 +1,7 @@
+[2020-07-31T10:38:35+08:00][error] [0]模板文件不存在:D:\phpstudy-v8.1\phpstudy_pro\WWW\tp6.cy\view\login\index.html[D:\phpstudy-v8.1\phpstudy_pro\WWW\tp6.cy\vendor\topthink\think-view\src\Think.php:146]
+[2020-07-31T10:52:56+08:00][error] [0]语法错误: unexpected '}', expecting ';'[D:\phpstudy-v8.1\phpstudy_pro\WWW\tp6.cy\app\controller\Login.php:20]
+[2020-07-31T10:55:16+08:00][error] [2]Use of undefined constant password - assumed 'password' (this will throw an Error in a future version of PHP)[D:\phpstudy-v8.1\phpstudy_pro\WWW\tp6.cy\app\controller\Login.php:15]
+[2020-07-31T11:06:27+08:00][error] [0]Class 'app\controller\Base' not found[D:\phpstudy-v8.1\phpstudy_pro\WWW\tp6.cy\app\controller\Index.php:4]
+[2020-07-31T11:06:40+08:00][error] [0]Call to undefined function app\controller\rediect()[D:\phpstudy-v8.1\phpstudy_pro\WWW\tp6.cy\app\controller\Login.php:12]
+[2020-07-31T11:07:07+08:00][error] [0]语法错误: unexpected ';', expecting ')'[D:\phpstudy-v8.1\phpstudy_pro\WWW\tp6.cy\app\controller\Login.php:18]
+[2020-07-31T11:15:25+08:00][error] [0]Call to undefined function app\middleware\rediect()[D:\phpstudy-v8.1\phpstudy_pro\WWW\tp6.cy\app\middleware\CheckLogin.php:19]

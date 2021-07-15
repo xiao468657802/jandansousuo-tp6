@@ -1,0 +1,1 @@
+[2021-06-25T23:29:13+08:00][error] [8192]Methods with the same name as their class will not be constructors in a future version of PHP; Index2 has a deprecated constructor[/www/wwwroot/tp66.cn/tp/app/controller/Index2.php:3]

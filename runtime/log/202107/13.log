@@ -1,0 +1,53 @@
+[2021-07-13T15:45:02+08:00][sql] CONNECT:[ UseTime:0.001838s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T15:45:02+08:00][sql] SHOW FULL COLUMNS FROM `ss_links` [ RunTime:0.022724s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` [ RunTime:0.000486s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 10 [ RunTime:0.002551s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 1 [ RunTime:0.000448s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 2 [ RunTime:0.000362s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 3 [ RunTime:0.000337s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 4 [ RunTime:0.000532s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 5 [ RunTime:0.000458s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 6 [ RunTime:0.000623s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 7 [ RunTime:0.000390s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 8 [ RunTime:0.000367s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 9 [ RunTime:0.000366s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 11 [ RunTime:0.000338s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 12 [ RunTime:0.000316s ]
+[2021-07-13T15:45:02+08:00][sql] SHOW FULL COLUMNS FROM `music_gedan` [ RunTime:0.001607s ]
+[2021-07-13T15:45:02+08:00][sql] SELECT * FROM `music_gedan` WHERE  `moren_uid` = 1 [ RunTime:0.000662s ]
+[2021-07-13T16:02:52+08:00][error] [8192]Non-static method think\View::fetch() should not be called statically[/www/wwwroot/tp6.com/app/controller/Code.php:12]
+[2021-07-13T16:35:35+08:00][sql] CONNECT:[ UseTime:0.001789s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:35:35+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.004207s ]
+[2021-07-13T16:35:35+08:00][sql] SELECT * FROM `users` [ RunTime:0.000895s ]
+[2021-07-13T16:35:35+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000673s ]
+[2021-07-13T16:38:15+08:00][sql] CONNECT:[ UseTime:0.001006s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:38:15+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001639s ]
+[2021-07-13T16:38:15+08:00][sql] SELECT * FROM `users` [ RunTime:0.000569s ]
+[2021-07-13T16:38:15+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000528s ]
+[2021-07-13T16:39:57+08:00][sql] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:39:57+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001147s ]
+[2021-07-13T16:39:57+08:00][sql] SELECT * FROM `users` [ RunTime:0.000479s ]
+[2021-07-13T16:39:57+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.001261s ]
+[2021-07-13T16:43:52+08:00][sql] CONNECT:[ UseTime:0.000921s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:43:52+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000907s ]
+[2021-07-13T16:43:52+08:00][sql] SELECT * FROM `users` [ RunTime:0.000589s ]
+[2021-07-13T16:44:47+08:00][sql] CONNECT:[ UseTime:0.000616s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:44:47+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000695s ]
+[2021-07-13T16:44:47+08:00][sql] SELECT * FROM `users` [ RunTime:0.000430s ]
+[2021-07-13T16:44:47+08:00][error] [8]未定义变量: data[/www/wwwroot/tp6.com/app/controller/Login.php:22]
+[2021-07-13T16:45:12+08:00][sql] CONNECT:[ UseTime:0.001483s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:45:12+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000736s ]
+[2021-07-13T16:45:12+08:00][sql] SELECT * FROM `users` [ RunTime:0.000430s ]
+[2021-07-13T16:45:32+08:00][sql] CONNECT:[ UseTime:0.000977s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:45:32+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000653s ]
+[2021-07-13T16:45:32+08:00][sql] SELECT * FROM `users` [ RunTime:0.000291s ]
+[2021-07-13T16:45:32+08:00][sql] SELECT * FROM `users` WHERE  `username` = 'admin' [ RunTime:0.000906s ]
+[2021-07-13T16:49:06+08:00][sql] CONNECT:[ UseTime:0.000953s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:49:06+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000869s ]
+[2021-07-13T16:49:06+08:00][sql] SELECT * FROM `users` [ RunTime:0.000478s ]
+[2021-07-13T16:49:12+08:00][sql] CONNECT:[ UseTime:0.000716s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:49:12+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000702s ]
+[2021-07-13T16:49:12+08:00][sql] SELECT * FROM `users` [ RunTime:0.000448s ]
+[2021-07-13T16:49:23+08:00][sql] CONNECT:[ UseTime:0.000838s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-13T16:49:23+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001159s ]
+[2021-07-13T16:49:23+08:00][sql] SELECT * FROM `users` [ RunTime:0.000849s ]
