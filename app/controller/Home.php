@@ -2,9 +2,11 @@
 namespace app\controller;
 use app\BaseController;
 use app\Request;
+use think\exception\ValidateException;
 use think\facade\Db;
 use think\facade\Session;
-
+//use think\View;
+use think\facade\View;
 class Home extends BaseController
 {
     public function index()  //k因为public 目录已经有了admin 目录,所以不能再有admin名称的控制器
@@ -60,16 +62,31 @@ class Home extends BaseController
 
     }
     /*         下面重置密码模块或方法 不用的话尽量选择注释掉  home.php/respwd   */
-    public function respwd()
+    public function respwd(Request $request)
     {
-        $data = [ 'password' => 'ef744145bbc6f8ecdf5e27cfdbaed823'];
-        //ef744145bbc6f8ecdf5e27cfdbaed823   为123456的md5加密 密文
-        $respwd = md5(md5($data['password']).'paswd');
-        $res = Db::name('users')->where('id',1)->update($data);
-        if($res){
-            return json(['code'=>0,'status'=>0,'msg'=>'success','data'=>'']);
+        $tok = input('post.__token__', '', 'trim');  //tijiao 1
+        if(empty($tok)){
+            return json(['code'=>0,'status'=>0,'msg'=>'Error , 无效token','data'=>'']);
         }
-        return json(['code'=>0,'status'=>1,'msg'=>'Error !! 重置错误或当前为初始密码','data'=>'']);
+        else {
+//            print_r($request->param());
+//            echo "</br>";
+            $check = $request->checkToken('__token__',$request->param());
+            if(false === $check)
+            {
+                //throw new ValidateException('invalid token');
+                return json(['code' => 0, 'status' => 0, 'msg' => '无效token,请 按 F5刷新页面', 'data' => '']);
+            }
+            //ef744145bbc6f8ecdf5e27cfdbaed823   为123456的md5加密 密文
+            $data = ['password' => 'ef744145bbc6f8ecdf5e27cfdbaed823'];
+            $respwd = md5(md5($data['password']) . 'paswd');
+            $res = Db::name('users')->where('id', 1)->update($data);
+            if ($res) {
+                return json(['code' => 0, 'status' => 0, 'msg' => 'success', 'data' => '']);
+            }
+            return json(['code' => 0, 'status' => 1, 'msg' => 'Error !! 重置错误或当前为初始密码', 'data' => '']);
+
+        }
     }
     /*         上面重置密码模块或方法 不用的话尽量选择注释掉  home.php/respwd   */
     /* 下面自动获取 域名   */
@@ -81,9 +98,38 @@ class Home extends BaseController
         }
         return json(['code'=>0,'status'=>1,'msg'=>'Error !! ','data'=>$httphost]);
     }
-    public function session()
+
+    public function token()
     {
-        echo Session::get('_token_');
+        $data = request()->buildToken('__token__', 'sha1');
+       // return View::fetch('/token/index');
+        return json(['code'=>0,'status'=>0,'msg'=>'success','data'=>$data]);
     }
+//    public function temple(Request $request)
+//    {
+//        $token = $request->buildToken('__token__', 'sha1');
+//        View::assign('token', $token);
+//        return View::fetch('/token/index');
+//
+//    }
+//    public function yanz(Request $request)
+//    {
+//        $tok = input('post.__token__', '', 'trim');  //tijiao 1
+//    //    print_r($request->param());  //Array ( [__token__] => eb9cb63353fe2d1843a8db1f251b32ae )
+//        if(empty($tok)){
+//            return json(['code'=>0,'status'=>0,'msg'=>'Error , 无效token','data'=>'']);
+//        }
+//        else {
+//           $check = $request->checkToken('__token__',$request->param());
+//           if(false === $check)
+//           {
+////               throw new ValidateException('invalid token');
+//               return json(['code' => 0, 'status' => 0, 'msg' => '无效token', 'data' => '']);
+//           }
+//
+//           echo "yes";
+//        }
+//    }
+
 
 }

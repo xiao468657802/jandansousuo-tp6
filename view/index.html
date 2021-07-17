@@ -64,7 +64,7 @@ echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'";</scr
 <div class="list closed">
     <ul>
 
-
+        {:shopToken()}
         <li class="title"><i class="icon iconfont icon-gongxiang"></i> Page</li>
         {volist name="page" id="obj"}
         <li><a rel="nofollow" href="{$obj.links}" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="{$obj.xlinksico}"></use></svg>{$obj.linkname}</a></li>

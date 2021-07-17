@@ -1,4 +1,4 @@
-<?php /*a:1:{s:36:"/www/wwwroot/tp6.com/view/index.html";i:1625044161;}*/ ?>
+<?php /*a:1:{s:36:"/www/wwwroot/tp6.com/view/index.html";i:1626414589;}*/ ?>
 <?php
 //禁用错误报告
 error_reporting(0);
@@ -65,7 +65,7 @@ echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'";</scr
 <div class="list closed">
     <ul>
 
-
+        <?php echo shopToken(); ?>
         <li class="title"><i class="icon iconfont icon-gongxiang"></i> Page</li>
         <?php if(is_array($page) || $page instanceof \think\Collection || $page instanceof \think\Paginator): $i = 0; $__LIST__ = $page;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$obj): $mod = ($i % 2 );++$i;?>
         <li><a rel="nofollow" href="<?php echo htmlentities($obj['links']); ?>" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="<?php echo htmlentities($obj['xlinksico']); ?>"></use></svg><?php echo htmlentities($obj['linkname']); ?></a></li>

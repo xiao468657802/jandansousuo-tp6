@@ -1962,13 +1962,22 @@ class Request implements ArrayAccess
         if (empty($data)) {
             $data = $this->post();
         }
+//        else{
+//            echo "$data[$token]";
+//        }
 
-        // 令牌验证
+
+        // 令牌验证  isset 函数用于检测变量是否已设置并且非 NULL       $data[$token] Array ( [__token__] => eb9cb63353fe2d1843a8db1f251b32ae )
         if (isset($data[$token]) && $this->session->get($token) === $data[$token]) {
             // 防止重复提交
+           //echo $token;
             $this->session->delete($token); // 验证完成销毁session
+            //return " $data[$token]";
             return true;
         }
+//        else{
+//            return "$data[$token]";
+//        }
 
         // 开启TOKEN重置
         $this->session->delete($token);

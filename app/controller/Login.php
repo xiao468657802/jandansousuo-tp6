@@ -27,7 +27,7 @@ class Login extends BaseController
             $password = input('post.password', '', 'trim');
 
             $ret = Db::name('users')->where('username' ,'=',$username)->select();
-            $data = ['access_token'=>'c276e61cd13ad99fc650e6908c7e5e65b63d2f32185ecfed6b801ee3fbdd5c1b'];
+            $data = ['access_token'=> 'c276e61cd13ad99fc650e6908c7e5e65b63d2f32185ecfed6b801ee3fbdd5c1b'];
            // print_r($data);
             if ($username == $page[0]['username'] && md5(md5($password).'paswd') == $page[0]['password']) {
                 session('admin_id', 1);
