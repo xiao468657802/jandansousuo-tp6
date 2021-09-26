@@ -1,0 +1,36 @@
+[2021-08-20T15:39:31+08:00][sql] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-08-20T15:39:31+08:00][sql] SHOW FULL COLUMNS FROM `ss_links` [ RunTime:0.003532s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` [ RunTime:0.000596s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 10 [ RunTime:0.000576s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 1 [ RunTime:0.000529s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 2 [ RunTime:0.000479s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 3 [ RunTime:0.000496s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 4 [ RunTime:0.000517s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 5 [ RunTime:0.000473s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 6 [ RunTime:0.000478s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 7 [ RunTime:0.000495s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 8 [ RunTime:0.000548s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 9 [ RunTime:0.000456s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 11 [ RunTime:0.000420s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 12 [ RunTime:0.000470s ]
+[2021-08-20T15:39:31+08:00][sql] SHOW FULL COLUMNS FROM `music_gedan` [ RunTime:0.002743s ]
+[2021-08-20T15:39:31+08:00][sql] SELECT * FROM `music_gedan` WHERE  `moren_uid` = 1 [ RunTime:0.000898s ]
+[2021-08-20T15:39:31+08:00][error] [0]Call to undefined function shopToken()[/www/wwwroot/tp6.com/runtime/temp/203deba8f43698ab244971b4b8c895e3.php:68]
+[2021-08-20T15:39:37+08:00][sql] CONNECT:[ UseTime:0.000722s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-08-20T15:39:37+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.003049s ]
+[2021-08-20T15:39:37+08:00][sql] SELECT * FROM `users` [ RunTime:0.000547s ]
+[2021-08-20T15:39:42+08:00][sql] CONNECT:[ UseTime:0.000702s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-08-20T15:39:42+08:00][sql] SHOW FULL COLUMNS FROM `ss_links` [ RunTime:0.000873s ]
+[2021-08-20T15:39:42+08:00][sql] SELECT * FROM `ss_links` [ RunTime:0.000566s ]
+[2021-08-20T15:39:43+08:00][sql] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-08-20T15:39:43+08:00][sql] SHOW FULL COLUMNS FROM `category` [ RunTime:0.004347s ]
+[2021-08-20T15:39:43+08:00][sql] SELECT * FROM `category` [ RunTime:0.000866s ]
+[2021-08-20T15:39:44+08:00][sql] CONNECT:[ UseTime:0.000745s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-08-20T15:39:44+08:00][sql] SHOW FULL COLUMNS FROM `music_gedan` [ RunTime:0.001402s ]
+[2021-08-20T15:39:44+08:00][sql] SELECT * FROM `music_gedan` [ RunTime:0.001058s ]
+[2021-08-20T15:43:46+08:00][sql] CONNECT:[ UseTime:0.000802s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-08-20T15:43:46+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000730s ]
+[2021-08-20T15:43:46+08:00][sql] SELECT * FROM `users` [ RunTime:0.000465s ]
+[2021-08-20T15:43:48+08:00][sql] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-08-20T15:43:48+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.000839s ]
+[2021-08-20T15:43:48+08:00][sql] SELECT * FROM `users` [ RunTime:0.000475s ]

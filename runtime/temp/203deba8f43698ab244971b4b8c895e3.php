@@ -1,4 +1,4 @@
-<?php /*a:1:{s:36:"/www/wwwroot/tp6.com/view/index.html";i:1626414589;}*/ ?>
+<?php /*a:1:{s:36:"/www/wwwroot/tp6.com/view/index.html";i:1631243434;}*/ ?>
 <?php
 //禁用错误报告
 error_reporting(0);
@@ -24,8 +24,8 @@ echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'";</scr
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="referrer" content="no-referrer" />
     <meta name="theme-color" content="#ffffff">
-    <link rel="icon" href="index/icon/icon/280.png?v=1.0.1" sizes="280x280" />
-    <link rel="apple-touch-icon-precomposed" href="index/icon/icon/280.png?v=1.0.1" />
+    <link rel="icon" href="/index/icon/280.png" sizes="280x280" />
+    <link rel="apple-touch-icon-precomposed" href="/index/icon/280.png?v=1.0.1" />
     <meta name="msapplication-TileImage" content="icon/icon/280.png?v=1.0.1" />
     <link rel="shortcut icon" href="index/icon/icon/32.png?v=1.0.1"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -65,7 +65,6 @@ echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'";</scr
 <div class="list closed">
     <ul>
 
-        <?php echo shopToken(); ?>
         <li class="title"><i class="icon iconfont icon-gongxiang"></i> Page</li>
         <?php if(is_array($page) || $page instanceof \think\Collection || $page instanceof \think\Paginator): $i = 0; $__LIST__ = $page;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$obj): $mod = ($i % 2 );++$i;?>
         <li><a rel="nofollow" href="<?php echo htmlentities($obj['links']); ?>" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="<?php echo htmlentities($obj['xlinksico']); ?>"></use></svg><?php echo htmlentities($obj['linkname']); ?></a></li>
@@ -115,41 +114,20 @@ echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'";</scr
     </ul>
 
 </div>
-<?php  /*
-天气-
-    <div class="mywth">
-<div class="wea_hover">
-    <div class="wea_in wea_top"></div>
-    <div class="wea_in wea_con">
-        <ul></ul>
-    </div>
-    <div class="wea_in wea_foot">
-        <ul></ul>
-    </div>
-</div>
-天气插件，基于和风天气接口制作
-</div>
-<div class="mywth" style="width: 200px;">
-    <div id="he-plugin-simple">
-    </div>
-    <script>WIDGET = {CONFIG:{"modules":"10234","background":5,"tmpColor":"4A4A4A","tmpSize":"14","cityColor":"4A4A4A","citySize":"14","aqiSize":"14","weatherIconSize":"20","alertIconSize":"16","padding":"0px","shadow":"0","language":"auto","borderRadius":5,"fixed":"false","vertical":"middle","horizontal":"left","key":"f60588bd99d94495b907562a23e05666"}}</script> <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
-</div> */   ?>
 
-<div id="tp-weather-widget" class="mywth"></div> <!--老版本和风天气的标签-->
-<script>
-    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
-    window.SeniverseWeatherWidget('show', {
-        flavor: "slim",
-        location: "WX4FBXXFKE4F",
-        geolocation: true,
-        language: "zh-Hans",
-        unit: "c",
-        theme: "auto",
-        token: "fd08684d-bf66-4982-999d-4d0f260c236d",
-        hover: "enabled",
-        container: "tp-weather-widget"
-    })
-</script>
+<div class="mywth">
+    <div class="wea_hover">
+        <div class="wea_in wea_top"></div>
+        <div class="wea_in wea_con">
+            <ul></ul>
+        </div>
+        <div class="wea_in wea_foot">
+            <ul></ul>
+        </div>
+    </div>
+    <!--天气插件，基于和风天气接口制作-->
+</div>
+
 
 <div id="content">
     <div class="con">

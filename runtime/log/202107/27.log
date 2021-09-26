@@ -1,0 +1,30 @@
+[2021-07-27T12:26:27+08:00][sql] CONNECT:[ UseTime:0.005284s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-27T12:26:27+08:00][sql] SHOW FULL COLUMNS FROM `ss_links` [ RunTime:0.002916s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` [ RunTime:0.001081s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 10 [ RunTime:0.001287s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 1 [ RunTime:0.000599s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 2 [ RunTime:0.000353s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 3 [ RunTime:0.000351s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 4 [ RunTime:0.000390s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 5 [ RunTime:0.000656s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 6 [ RunTime:0.000436s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 7 [ RunTime:0.000310s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 8 [ RunTime:0.000466s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 9 [ RunTime:0.000325s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 11 [ RunTime:0.000329s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `ss_links` WHERE  `uid` = 12 [ RunTime:0.000313s ]
+[2021-07-27T12:26:27+08:00][sql] SHOW FULL COLUMNS FROM `music_gedan` [ RunTime:0.002185s ]
+[2021-07-27T12:26:27+08:00][sql] SELECT * FROM `music_gedan` WHERE  `moren_uid` = 1 [ RunTime:0.000787s ]
+[2021-07-27T12:26:27+08:00][error] [0]Call to undefined function shopToken()[/www/wwwroot/tp6.com/runtime/temp/203deba8f43698ab244971b4b8c895e3.php:68]
+[2021-07-27T12:26:45+08:00][sql] CONNECT:[ UseTime:0.001252s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-27T12:26:45+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001949s ]
+[2021-07-27T12:26:45+08:00][sql] SELECT * FROM `users` [ RunTime:0.000539s ]
+[2021-07-27T12:26:49+08:00][sql] CONNECT:[ UseTime:0.001295s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-27T12:26:49+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.002346s ]
+[2021-07-27T12:26:49+08:00][sql] SELECT * FROM `users` [ RunTime:0.001139s ]
+[2021-07-27T12:26:56+08:00][sql] CONNECT:[ UseTime:0.000742s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-27T12:26:56+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001536s ]
+[2021-07-27T12:26:56+08:00][sql] UPDATE `users`  SET `password` = 'ef744145bbc6f8ecdf5e27cfdbaed823'  WHERE  `id` = 1 [ RunTime:0.011210s ]
+[2021-07-27T12:29:31+08:00][sql] CONNECT:[ UseTime:0.001672s ] mysql:host=127.0.0.1;port=3306;dbname=tp6_com;charset=utf8
+[2021-07-27T12:29:31+08:00][sql] SHOW FULL COLUMNS FROM `users` [ RunTime:0.001729s ]
+[2021-07-27T12:29:31+08:00][sql] SELECT * FROM `users` [ RunTime:0.001767s ]

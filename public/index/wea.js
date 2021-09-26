@@ -11,7 +11,7 @@ $("#content").click(function(event) {
 });
 
 $.ajax({
-    url: '/wea/',
+    url: '/index/wea/',
     dataType: 'json',
     error: function() {
         console.log('天气插件网络错误！');

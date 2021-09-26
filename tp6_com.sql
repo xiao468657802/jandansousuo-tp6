@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主机： localhost
--- 生成日期： 2021-07-13 16:50:57
+-- 生成日期： 2021-09-26 15:53:26
 -- 服务器版本： 5.7.34-log
 -- PHP 版本： 7.1.33
 
@@ -218,7 +218,8 @@ INSERT INTO `ss_links` (`id`, `links`, `xlinksico`, `linkname`, `uid`, `class_na
 (124, 'https:\\/\\/github.com\\/', '#icon-github', 'github', 8, '开发'),
 (125, 'http:\\/\\/blog.vwlin.cn', '#icon-bolezaixian', 'bk', 10, 'Page'),
 (126, 'http:\\/\\/blog.vwlin.cn', '#icon-bolezaixian', 'bbk', 10, 'Page'),
-(127, 'http:\\/\\/blog.vwlin.cn', '#icon-bolezaixian', 'bbnk', 4, '购物');
+(127, 'http:\\/\\/blog.vwlin.cn', '#icon-bolezaixian', 'bbnk', 4, '购物'),
+(128, 'http://192.168.133.131:809/admin/start/#/home/homepage3', '#', 'home', 10, 'Page');
 
 -- --------------------------------------------------------
 
@@ -233,15 +234,20 @@ CREATE TABLE `users` (
   `last_ip` varchar(255) DEFAULT NULL,
   `is_admin` tinyint(4) DEFAULT '0',
   `lastlogin_time` int(11) NOT NULL,
-  `login_count` int(11) NOT NULL
+  `login_count` int(11) NOT NULL,
+  `nickname` varchar(255) NOT NULL COMMENT 'nicheng',
+  `sex` enum('男','女','未知') DEFAULT NULL COMMENT 'xingbie',
+  `avatar` varchar(255) NOT NULL COMMENT 'touxiang',
+  `email` varchar(50) NOT NULL,
+  `remarks` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`, `last_ip`, `is_admin`, `lastlogin_time`, `login_count`) VALUES
-(1, 'admin', '123456', '11', 0, 11, 11);
+INSERT INTO `users` (`id`, `username`, `password`, `last_ip`, `is_admin`, `lastlogin_time`, `login_count`, `nickname`, `sex`, `avatar`, `email`, `remarks`) VALUES
+(1, 'admin', 'ef744145bbc6f8ecdf5e27cfdbaed823', '11', 0, 11, 11, '小桃', '女', 'http://cdn.layui.com/avatar/168.jpg', 'susu@163.com', '22222222222222222222222222222');
 
 --
 -- 转储表的索引
@@ -303,7 +309,7 @@ ALTER TABLE `music_gedan`
 -- 使用表AUTO_INCREMENT `ss_links`
 --
 ALTER TABLE `ss_links`
-  MODIFY `id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=128;
+  MODIFY `id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=129;
 
 --
 -- 使用表AUTO_INCREMENT `users`
